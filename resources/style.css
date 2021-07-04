@@ -1,0 +1,468 @@
+.video
+{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 10px;
+  box-shadow: 0px 0px 10px 1px #001400;
+}
+
+.gen_tank_col
+{
+	float:left;
+	width:50%;
+	height:80%;
+}
+
+.clearfix
+{
+	clear:both;
+}
+
+form
+{
+	display:inline;
+}
+
+#navBarUl
+{
+	display:inline;
+	float:left;
+}
+
+html
+{
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(left,  #1e5799 0%, #002400 0%, #004008 51%, #002400 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(0%,#002400), color-stop(51%,#004008), color-stop(100%,#002400)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #1e5799 0%,#002400 0%,#004008 51%,#002400 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #1e5799 0%,#002400 0%,#004008 51%,#002400 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #1e5799 0%,#002400 0%,#004008 51%,#002400 100%); /* IE10+ */
+	background: linear-gradient(to right,  #1e5799 0%,#002400 0%,#004008 51%,#002400 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#002400',GradientType=1 ); /* IE6-9 */
+}
+
+body
+{
+	width:1180px;
+	height:200px;
+  margin-left:auto;
+  margin-right:auto;
+	/*border:1px solid black;*/
+}
+
+#bodyblock
+{
+	width:1180px;
+	height:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#footer
+{
+	width:1180px;
+	height:50px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:10px;
+  vertical-align: middle;
+}
+
+#footer_text_div
+{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+/*This is a generic div for putting a block in. (i.e. mission, comments, etc.) */
+.block
+{
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	width:1150px;
+  margin-left:auto;
+  margin-right:auto;
+	/*border:1px solid black;*/
+}
+
+/*Anything that's a block with blocklike properties goes here */
+.blocklike
+{
+	margin-top:10px;
+	/*
+  box-shadow: 0px 0px 5px 1px #001400;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;
+  */
+	background: green; /* Old browsers */
+
+
+}
+
+/*This is a div for header blocks (i.e. News, Comments, etc.)*/
+.headerblock
+{
+	width:100%;
+	height:50px;
+	padding-left:10px;
+	padding-right:10px;
+	display: table-cell;
+	background-color:lightgreen;
+	border: 2px solid #0a4a26;
+	vertical-align:text-bottom;
+	text-align:center;
+	font-size:2em;
+	line-height: 1.5em;
+	vertical-align:middle;
+}
+
+/*This is the parent div that holds the title and body as children. It's a post block.*/
+.postblock
+{
+	width:1150px;
+	margin-top:20px;
+
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*This is the div that represents the title of the news*/
+.posttitle
+{
+	line-height:30px;
+	vertical-align:middle;
+
+	width:1138px;
+	height:30px;
+	font-size:1.5em;
+	background-color:#B6F56E;
+	border: 2px solid #0a4a26;
+  border-bottom: 1px;
+	padding:5px 0px 5px 10px;
+}
+
+/*This is the div that represents the body of the news*/
+.postbody
+{
+	width:1150px;
+	/*height:50px;*/
+	font-size:1.25em;
+	vertical-align:middle;
+	background-color:lightgreen;
+	border: 2px solid #0a4a26;
+	display:table-cell;
+	padding: 10px 10px 10px 10px;
+}
+
+#description {
+  background-color:lightgreen;
+}
+
+#vertical
+{
+	#width:30px;
+	#height:28px;
+	#vertical-align:middle;
+}
+
+#rating
+{
+	background:red;
+	height:28px;
+}
+
+.clearfix:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+#error
+{
+	color:red;
+}
+
+pre {
+ white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+.controls
+{
+	
+}
+
+#high_score_link
+{
+  margin-top:-10px;
+  text-align:center;
+}
+
+#game_name_label
+{
+	margin-bottom:20px;
+	font-size:40px;
+}
+
+/*SLIDER*/
+
+.container
+{
+  text-align: center;
+  position:relative;
+}
+
+.slides
+{
+  position:relative;
+}
+
+.arrow
+{
+  position:absolute;
+  opacity: 0.75;
+  top:50%;
+  margin-top:-64px;
+}
+.arrow:hover
+{
+  opacity: 1;
+  cursor: pointer;
+  top:50%;
+}
+
+.leftarrow
+{
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+
+  left:20px;
+}
+.rightarrow
+{
+  right:20px;
+}
+
+.slide_image
+{
+  display:none;
+}
+.on_slide
+{
+  box-shadow: 0px 0px 10px 1px #001400;
+  display:inline-block;
+}
+#current_message
+{
+  font-family: arial;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*LOADER*/
+
+#floatingCirclesG{
+position:relative;
+width:128px;
+height:128px;
+-moz-transform:scale(0.6);
+-webkit-transform:scale(0.6);
+-ms-transform:scale(0.6);
+-o-transform:scale(0.6);
+transform:scale(0.6);
+}
+
+.f_circleG{
+position:absolute;
+background-color:#FFFFFF;
+height:23px;
+width:23px;
+-moz-border-radius:12px;
+-moz-animation-name:f_fadeG;
+-moz-animation-duration:0.8s;
+-moz-animation-iteration-count:infinite;
+-moz-animation-direction:linear;
+-webkit-border-radius:12px;
+-webkit-animation-name:f_fadeG;
+-webkit-animation-duration:0.8s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:linear;
+-ms-border-radius:12px;
+-ms-animation-name:f_fadeG;
+-ms-animation-duration:0.8s;
+-ms-animation-iteration-count:infinite;
+-ms-animation-direction:linear;
+-o-border-radius:12px;
+-o-animation-name:f_fadeG;
+-o-animation-duration:0.8s;
+-o-animation-iteration-count:infinite;
+-o-animation-direction:linear;
+border-radius:12px;
+animation-name:f_fadeG;
+animation-duration:0.8s;
+animation-iteration-count:infinite;
+animation-direction:linear;
+}
+
+#frotateG_01{
+left:0;
+top:52px;
+-moz-animation-delay:0.3s;
+-webkit-animation-delay:0.3s;
+-ms-animation-delay:0.3s;
+-o-animation-delay:0.3s;
+animation-delay:0.3s;
+}
+
+#frotateG_02{
+left:15px;
+top:15px;
+-moz-animation-delay:0.4s;
+-webkit-animation-delay:0.4s;
+-ms-animation-delay:0.4s;
+-o-animation-delay:0.4s;
+animation-delay:0.4s;
+}
+
+#frotateG_03{
+left:52px;
+top:0;
+-moz-animation-delay:0.5s;
+-webkit-animation-delay:0.5s;
+-ms-animation-delay:0.5s;
+-o-animation-delay:0.5s;
+animation-delay:0.5s;
+}
+
+#frotateG_04{
+right:15px;
+top:15px;
+-moz-animation-delay:0.6s;
+-webkit-animation-delay:0.6s;
+-ms-animation-delay:0.6s;
+-o-animation-delay:0.6s;
+animation-delay:0.6s;
+}
+
+#frotateG_05{
+right:0;
+top:52px;
+-moz-animation-delay:0.7s;
+-webkit-animation-delay:0.7s;
+-ms-animation-delay:0.7s;
+-o-animation-delay:0.7s;
+animation-delay:0.7s;
+}
+
+#frotateG_06{
+right:15px;
+bottom:15px;
+-moz-animation-delay:0.8s;
+-webkit-animation-delay:0.8s;
+-ms-animation-delay:0.8s;
+-o-animation-delay:0.8s;
+animation-delay:0.8s;
+}
+
+#frotateG_07{
+left:52px;
+bottom:0;
+-moz-animation-delay:0.9s;
+-webkit-animation-delay:0.9s;
+-ms-animation-delay:0.9s;
+-o-animation-delay:0.9s;
+animation-delay:0.9s;
+}
+
+#frotateG_08{
+left:15px;
+bottom:15px;
+-moz-animation-delay:1s;
+-webkit-animation-delay:1s;
+-ms-animation-delay:1s;
+-o-animation-delay:1s;
+animation-delay:1s;
+}
+
+@-moz-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-webkit-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-ms-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@-o-keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+@keyframes f_fadeG{
+0%{
+background-color:#000000}
+
+100%{
+background-color:#FFFFFF}
+
+}
+
+#floatingCirclesG
+{
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin-left:-64px;
+  margin-top:-64px;
+  display: none;
+}
+
+.postbodylist
+{
+  list-style-type:disc;
+  display: inline-block;
+}
+
+.postbodylist > li {
+  margin-bottom: 20px;
+}

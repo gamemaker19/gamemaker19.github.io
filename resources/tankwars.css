@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'TankWarsTitleFont'; /*a name to be used later*/
+    src: url('gun4fc.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'TankWarsFont'; /*a name to be used later*/
+    src: url('gun4fc.ttf'); /*URL to font*/
+}
+
+*:not(.tank_desc)
+{
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+#game_name_label
+{
+	font-family: TankWarsTitleFont;
+	text-align:center;
+	color:black;
+}

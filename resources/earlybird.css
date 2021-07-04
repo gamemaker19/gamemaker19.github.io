@@ -1,0 +1,12 @@
+
+*:not(#game_name_label)
+{
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+#game_name_label
+{
+		font-family: 'Bangers', cursive;
+		color:lightgray;
+		text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<link type = "text/css" rel="Stylesheet" href="resources/tankwars_style.css?version=2">
+<link type = "text/css" rel="Stylesheet" href="resources/tankwars.css?version=2">
+
+<head>
+  <title>Tank Wars</title>
+  <script src="resources/javascript.js"></script>
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <link rel="shortcut icon" href="resources/tankwarsicon.png">
+  <link type = "text/css" rel="Stylesheet" href="resources/style.css?version=2">
+  <link type = "text/css" rel="Stylesheet" href="resources/navbar_style.css?version=2">
+</head>
+
+<style type="text/css">
+
+.list
+{
+  display: block;
+  list-style-type: disc;
+  margin-before: 1em;
+  margin-after: 1em;
+  margin-start: 0;
+  margin-end: 0;
+  padding-start: 40px;
+}
+.tank_desc
+{
+  font-family: "Arial", Helvetica, sans-serif;
+  font-size:16px;
+  margin-top: 0px;
+}
+
+</style>
+
+<body>
+
+  <div id="menuDiv" class="blocklike">
+    <div id="centered">
+      <div id="logoDiv">
+        <a href="index.html"><img id="logo" src="resources/logo.png"></a>
+      </div>
+      <ul id="navBarUl">
+        <li title="Tank Wars"><a id="tankwars" href="tankwars.html"></a></li>
+        <li title="Early Bird"><a id="earlybird" href="earlybird.html"></a></li>
+        <li title="Terra Garrison"><a id="terra" href="terragarrison.html"></a></li>
+        <li title="Agent Stickman"><a id="agent" href="agent_stickman.html"></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block blocklike">
+
+    <div id="game_name_label">Tank Wars</div>
+    
+    <iframe class="video" width="960" height="540" src="https://www.youtube.com/embed/n7MWTFmF_kw" frameborder="0" allowfullscreen></iframe>
+
+    <div id="buttons">
+      <form method="post" action="resources/files/TankWars.zip">
+        <input type="submit" name="download" value="Download for windows" />  
+      </form>
+      <a href="tankwars_help.html"><button>View Controls and Help</button></a>
+    </div>
+    <div id="description">
+      <p>Tank Wars 3D is a 3rd person, multiplayer, online tank shooting game.</p>
+
+      <p>Choose from ten different weapons and five different tanks, each with their own unique weapon, strengths and abilities.</p>
+
+      <h1>Tank Classes</h1>
+
+      <h3>Assaulter<h3>
+
+      <div style="margin-top:-10px; font-size:14px; font-family:arial; font-style:italic">
+        Hit Points: 1000<br>
+        Default Weapon: Assault Cannon<br>
+      </div> 
+      
+      <img src="resources/assaulter.png" height=105px ></img>
+
+      <p class="tank_desc">The Assaulter is an excellent general purpose assault tank. It has decent defenses and movement speed, and its
+        Assault Cannon packs a punch.
+      </p>
+
+      <h3>Roller<h3>
+      
+      <div style="margin-top:-10px; font-size:14px; font-family:arial; font-style:italic">
+        Hit Points: 500<br>
+        Default Weapon: Machine Gun<br>
+      </div>  
+           
+      <img src="resources/roller.png" height=105px ></img>
+
+      <p class="tank_desc">
+        Rollers are the fastest vehicles in the game. This hit-and-run buggy excels at capturing the objective. It can even hover in the air for brief
+        periods of time: hold down SPACE to do so. However, its speed comes at a cost: the roller has the lowest amount of health and armor in the game.
+      </p>
+
+      <h3>Behemoth<h3>
+
+      <div style="margin-top:-10px; font-size:14px; font-family:arial; font-style:italic">
+        Hit Points: 2000<br>
+        Default Weapon: Destroyer<br>
+      </div> 
+
+      <img src="resources/behemoth.png" height=125px ></img>
+
+      <p class="tank_desc">
+        Behemoths are the largest, strongest and most dangerous tanks in the game. Armed with twin Destroyer cannons, they have the ability
+        to destroy any other tank class in just one or two hits. On top of this, Behemoths are tough to take down in a direct confrontation due to their 
+        immense hit points and defense. However, Behemoths suffer from slow movement speed, poor acceleration, and restrained rotation, which combined
+        with their large profile, make them vulnerable to sniper fire.
+      </p>
+
+      <h3>Shredder<h3>
+
+      <div style="margin-top:-10px; font-size:14px; font-family:arial; font-style:italic">
+        Hit Points: 1000<br>
+        Default Weapon: Danger Drill<br>
+      </div> 
+      
+      <img src="resources/shredder.png" height=95px ></img>
+
+      <p class="tank_desc">
+        The Shredder is capable of dealing massive damage with its Danger Drill, tearing apart even the mighty Behemoth in seconds. However, to damage
+        enemies with the Danger Drill, shredder drivers must ram into their enemies at close range, making the vehicle a high-risk, high-reward class.
+        Hold down SPACE and release to perform a Drill Charge, a devastating technique that launches the Shredder forward and decimates any enemies in the way.
+      <p>
+
+      <h3>Groundmaster<h3>
+
+      <div style="margin-top:-10px; font-size:14px; font-family:arial; font-style:italic">
+        Hit Points: 750<br>
+        Default Weapon: Super Mortar<br>
+      </div> 
+
+      <img src="resources/groundmaster.png" height=105px ></img>
+
+      <p class="tank_desc">
+        Groundmasters provide powerful, ranged artillery to the battlefield. This quadruped strider has excellent mobility on rough terrain; it even has
+        the ability to climb up walls and ceilings (simply move into a wall to climb on it). Groundmaster drivers, however, must be aware of the low health
+        and armor of the fragile vehicle, and should stay in the back of the battlefield to support the team instead of entering front-line combat.
+      <p>
+        
+      </p>
+
+    </div>
+  </div>
+
+  <div class="block blocklike">
+    <div class="headerblock"><strong>Screenshots</strong></div>
+    <div class="postblock">
+      <div>
+        <div class="container">
+
+          <div class="slides">
+
+            <div id="floatingCirclesG">
+              <div class="f_circleG" id="frotateG_01"></div>
+              <div class="f_circleG" id="frotateG_02"></div>
+              <div class="f_circleG" id="frotateG_03"></div>
+              <div class="f_circleG" id="frotateG_04"></div>
+              <div class="f_circleG" id="frotateG_05"></div>
+              <div class="f_circleG" id="frotateG_06"></div>
+              <div class="f_circleG" id="frotateG_07"></div>
+              <div class="f_circleG" id="frotateG_08"></div>
+            </div>
+
+            <img class="arrow leftarrow" title="View Screenshots" width="64" height="128" src="resources/arrow.png">
+            <img class="arrow rightarrow" title="View Screenshots" width="64" height="128" src="resources/arrow.png">
+            <img class="slide_image on_slide 0" src="resources/tank_screen/1.png">
+          </div>
+          <span id="current_message"></span>
+        </div>
+
+        <script src="resources/image_slider.js"></script>
+        <script>
+
+          var images = [
+            "resources/tank_screen/1.png",
+            "resources/tank_screen/3.png",
+            "resources/tank_screen/4.png",
+            "resources/tank_screen/5.png",
+            "resources/tank_screen/6.png",
+            "resources/tank_screen/7.png",
+            "resources/tank_screen/8.png",
+            "resources/tank_screen/9.png",
+            "resources/tank_screen/10.png",
+            "resources/tank_screen/11.png",
+            "resources/tank_screen/12.png",
+            "resources/tank_screen/13.png",
+            "resources/tank_screen/14.png"
+          ];
+
+          var messages = [
+            "A blue Assaulter taking aim at an enemy red Assaulter",
+            "The killfeed shows your killer when you have been destroyed.",
+            "Shoot Auto Turrets to defend key areas.",
+            "Shredders can effectively counter Behemoths with their Danger Drill.",
+            "A Shredder Drill Charge can destroy a Behemoth in less than a second.",
+            "Rollers are skirmish vehicles and make great use of the Flamethrower.",
+            "A Groundmaster firing its Super Mortar.",
+            "Groundmasters can climb on and cling to walls and ceilings.",
+            "Assaulter firing some missiles.",
+            "The Electrozapper can electrocute enemies, making them deal discharge damage to nearby allies.",
+            "The Behemoth's Destroyer cannon is extremely powerful.",
+            "Rollers are great for capturing the flag.",
+            "Behemoths can soak up a lot of damage for the team, and work well for leading charges."
+          ];
+
+          $('.slides').hook_images(images,messages);
+
+        </script>
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  <div class="clearfix"></div>
+
+  <script type="text/javascript">var game_name="tank_wars";</script>
+  
+  <div id="footer" class="blocklike">
+    <div id="footer_text_div">
+      <a style="color:white" href="https://www.youtube.com/channel/UCETpT-tLYC0dLmMbMNGjlLw/videos">Youtube</a>&nbsp;
+      <a style="color:white" href="mailto:usernameqq15@gmail.com">Email</a>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+#game_name_label
+{
+	text-align:center;
+}
+
+#buttons
+{
+	text-align:center;
+}
+
+#play_in_browser
+{
+}
+
+#download
+{
+}
+
+#description
+{
+	margin-top:20px;
+	width:1138px;
+	font-size:1.25em;
+	border:1px solid black;
+	padding: 10px 0px 10px 10px;
+}
+div.demo
+{
+	margin: auto;
+}

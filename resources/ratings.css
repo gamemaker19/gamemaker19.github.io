@@ -1,0 +1,81 @@
+#ratingblock
+{
+	float:left;
+	background:lightgreen;
+	border:1px solid black;
+	width:35%;
+	height:400px;
+}
+
+#titleandreview
+{
+	position:relative;
+	float:right;
+	width:63%;
+	height:400px;
+}
+
+#titleblock
+{
+	position: absolute;
+    top: 0;
+	right:0;
+	background:lightgreen;
+	border:1px solid black;
+	width:100%;
+	height:24%;
+}
+
+#reviewblock
+{
+	position: absolute;
+    bottom: 0;
+	right:0;
+	background:lightgreen;
+	border:1px solid black;
+	width:100%;
+	height:74%;
+}
+
+#ratinglabel, #titlelabel, #reviewlabel
+{
+	width:100%;
+	height:30px;
+	padding-left:10px;
+	padding-right:10px;
+	display: table-cell;
+	background-color:#99FF66;
+	border:1px solid black;vertical-align:text-bottom;
+	text-align:center;
+	font-size:1.25em;
+	line-height: 1.25em;
+	vertical-align:middle;
+}
+
+#titlelabel
+{
+}
+
+#titletext
+{
+	margin:auto;
+	width:95%;
+	vertical-align:middle;
+}
+
+#reviewlabel
+{
+}
+
+#reviewtext
+{
+	width:95%;
+	height:80%;
+	vertical-align:middle;
+}
+
+#submit_stuff
+{
+	clear:both;
+	display:block;
+}

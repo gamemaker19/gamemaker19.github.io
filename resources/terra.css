@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'TerraFont'; /*a name to be used later*/
+    src: url('AGENCYB.TTF'); /*URL to font*/
+}
+
+*
+{
+    font-family: 'TerraFont';
+}
+
+#game_name_label
+{
+	text-align:center;
+	color:#111111;
+	text-shadow: -1px 0 lightgray, 0 1px lightgray, 1px 0 lightgray, 0 -1px lightgray;
+}

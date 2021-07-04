@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<link type = "text/css" rel="Stylesheet" href="resources/tankwars_style.css?version=2">
+<link type = "text/css" rel="Stylesheet" href="resources/terra.css?version=2">
+
+<title>Terra Garrison</title>
+
+<head>
+  <script src="resources/javascript.js"></script>
+  <script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+  <link rel="shortcut icon" href="resources/terragarrisonicon_small.png">
+  <link type = "text/css" rel="Stylesheet" href="resources/style.css?version=2">
+</head>
+
+<style>
+
+.on_slide
+{
+  width:960px;
+  height:500px;
+  box-shadow: 0px 0px 10px 1px #001400;
+  display:inline-block;
+}
+
+</style>
+
+<body>
+
+  <link type = "text/css" rel="Stylesheet" href="resources/navbar_style.css?version=2">
+
+  <div id="menuDiv" class="blocklike">
+    <div id="centered">
+      <div id="logoDiv">
+        <a href="index.html"><img id="logo" src="resources/logo.png"></a>
+      </div>
+      <ul id="navBarUl">
+        <li title="Tank Wars"><a id="tankwars" href="tankwars.html"></a></li>
+        <li title="Early Bird"><a  id="earlybird" href="earlybird.html"></a></li>
+        <li title="Terra Garrison"><a id="terra" href="terragarrison.html"></a></li>
+        <li title="Agent Stickman"><a id="agent" href="agent_stickman.html"></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block blocklike">
+    <h1 id="game_name_label" style="margin-top: -5px">Terra Garrison</h1>
+
+    <div class="container">
+
+      <div class="slides">
+
+        <img class="arrow leftarrow" title="View Screenshots" width="64" height="128" src="resources/arrow.png">
+        <img class="arrow rightarrow" title="View Screenshots" width="64" height="128" src="resources/arrow.png">
+        <img class="slide_image on_slide 0 first" src="resources/terra_bg.png">
+
+        <div id="floatingCirclesG">
+          <div class="f_circleG" id="frotateG_01"></div>
+          <div class="f_circleG" id="frotateG_02"></div>
+          <div class="f_circleG" id="frotateG_03"></div>
+          <div class="f_circleG" id="frotateG_04"></div>
+          <div class="f_circleG" id="frotateG_05"></div>
+          <div class="f_circleG" id="frotateG_06"></div>
+          <div class="f_circleG" id="frotateG_07"></div>
+          <div class="f_circleG" id="frotateG_08"></div>
+        </div>
+
+      </div>
+      <span id="current_message"></span>
+    </div>
+
+    <script src="resources/image_slider.js"></script>
+    <script>
+
+      var images = [
+        "resources/terra_bg.png",
+        "resources/terra_screen/1.png",
+        "resources/terra_screen/2.png",
+        "resources/terra_screen/3.png",
+        "resources/terra_screen/4.png",
+        "resources/terra_screen/5.png",
+      ];
+
+      var messages = [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+      ];
+
+      $('.slides').hook_images(images,messages);
+
+    </script>
+    
+    <div id="buttons">
+      <form method="get" action="resources/files/TerraGarrison.zip">
+        <input type="submit" name="download" value="Download for Windows" />  
+      </form>
+    </div>
+    <div id="description">Terra Garrison is a space-themed tower defense game.</div>
+  </div>
+
+    <style type="text/css">
+
+  .gen_tank_col
+  {
+    float:left;
+    width:50%;
+    height:80%;
+  }
+
+  h1
+  {
+    clear:both;
+    margin-top:20px;
+    text-align: center;
+  }
+
+  #tank_controls table, #tank_controls th, #tank_controls td
+  {
+    border:1px solid black;
+  }
+
+  #tank_controls table { table-layout: fixed; }
+  #tank_controls td { width: 20%; }
+
+  </style>
+
+  <div class="block blocklike" id="controls_block">
+  
+    <div class="headerblock" style="display:inline"><b>Quick Controls</b></div>
+    
+    <div class="postblock">
+      <div class="postbody" id="tank_controls">
+        <div class="gen_tank_col">
+            Arrow Keys = Move Cursor<br>
+            Z = Cycle Towers Left<br>
+            C = Cycle Towers Right<br>
+            X = Place Tower<br>
+            D = Destroy Tower<br>
+            Escape = Pause/Unpause<br>
+            Enter = Return to Main Menu (When paused)<br>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">var game_name="terra_garrison";</script>
+
+  <div id="footer" class="blocklike">
+    <div id="footer_text_div">
+      <a style="color:white" href="https://www.youtube.com/channel/UCETpT-tLYC0dLmMbMNGjlLw/videos">Youtube</a>&nbsp;
+      <a style="color:white" href="mailto:usernameqq15@gmail.com">Email</a>
+    </div>
+  </div>
+
+</body>
+
+
+</html>

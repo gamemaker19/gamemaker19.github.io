@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'AgentTitleFont'; /*a name to be used later*/
+    src: url('agent2.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'AgentFont'; /*a name to be used later*/
+    src: url('agent1.ttf'); /*URL to font*/
+}
+
+*:not(#game_name_label)
+{
+    font-family: "Arial", Gadget, sans-serif;
+    font-size:20px;
+}
+
+#game_name_label
+{
+	font-family: AgentTitleFont;
+	text-align:center;
+}

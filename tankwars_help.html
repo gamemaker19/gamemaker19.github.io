@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html>
+
+<title>Tank Wars Help</title>
+
+<head>
+
+<style type="text/css">
+
+  h1
+  {
+    clear:both;
+    margin-top:20px;
+    text-align: center;
+  }
+
+  #tank_controls table, #tank_controls th, #tank_controls td
+  {
+    border:1px solid black;
+  }
+
+  #tank_controls table { table-layout: fixed; }
+  #tank_controls td { width: 20%; }
+
+</style>
+
+<script src="resources/javascript.js"></script>
+<link rel="shortcut icon" href="resources/tankwarsicon.png">
+<link type = "text/css" rel="Stylesheet" href="resources/style.css?version=2">
+<link type = "text/css" rel="Stylesheet" href="resources/tankwars_style.css?version=2">
+<link type = "text/css" rel="Stylesheet" href="resources/demo.css?version=2">
+<link type = "text/css" rel="Stylesheet" href="resources/tankwars.css?version=2">
+<script type='text/javascript' src='https://ssl-webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/jquery.min.js'></script>
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+
+</head>
+
+<body>
+
+  <link type = "text/css" rel="Stylesheet" href="resources/navbar_style.css?version=2">
+
+  <div id="menuDiv" class="blocklike">
+    <div id="centered">
+      <div id="logoDiv">
+        <a href="index.html"><img id="logo" src="resources/logo.png"></a>
+      </div>
+      <ul id="navBarUl">
+        <li title="Tank Wars"><a id="tankwars" href="tankwars.html"></a></li>
+        <li title="Early Bird"><a  id="earlybird" href="earlybird.html"></a></li>
+        <li title="Terra Garrison"><a id="terra" href="terragarrison.html"></a></li>
+        <li title="Agent Stickman"><a id="agent" href="agent_stickman.html"></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="block blocklike" id="controls_block">
+    <div class="headerblock" style="display:inline"><b>Quick Controls</b></div>
+    <div class="postblock">
+      <div class="postbody" id="tank_controls">
+      
+      <h1>General</h1>
+
+        <div class="gen_tank_col">
+            W = Move Forward <br>
+            A = Turn Left <br>
+            S = Move Backward <br>
+            D = Turn Right <br>
+            Hold Shift = Lock Aim <br>
+            Mouse = Look<br>
+            Left Mouse = Primary Fire<br>
+            Right Mouse = Secondary Fire<br>
+            1 = Switch to default weapon<br>
+            2 = Switch to weapon 1<br>
+            3 = Switch to weapon 2<br>
+            4 = Switch to weapon 3<br>
+            Z = Zoom (Sniper rifle only)<br>
+            C = Align Tank (When flipped over)
+
+        </div>
+
+        <div class="gen_tank_col">
+          Q = Reduce Shot Power<br>
+          E = Increase Shot Power<br>
+          P = Self destruct <br>
+          T = Team Chat<br>
+          Y = All Chat<br>
+          , = Switch Class<br>
+          . = Switch Team<br>
+          / = Switch Weapon<br>
+          Esc = Menu<br>
+          Tab = Check Score<br>
+        </div>
+
+        <h1>Tank-Specific</h1>
+
+          <table style="width: 100%;">
+            <tr>
+                <th>Assaulter</th>
+                <th>Roller</th>
+                <th>Behemoth</th>
+                <th>Shredder</th>
+                <th>Groundmaster</th>
+            </tr>
+            <tr>
+                <td>
+                  Hold Left Mouse = Charge Weapon
+                </td>
+                <td>
+                  Space = Hover
+                </td>
+                <td>
+                  Right Mouse = Fire Machine Guns
+                </td>
+                <td>
+                  Space = Drill Charge
+                </td>
+                <td>
+                  Space = Jump <br>
+                  Z = Zoom (Any weapon) <br>
+                  A/D = Strafe
+                </td>
+            </tr>
+        </table>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="block blocklike" id="started_block">
+    <div class="headerblock" style="display:inline"><b>Getting Started</b></div>
+    <div class="postblock">
+      <div class="postbody">
+        <p>The fastest way to get started playing is to just hit "Quick Play" which will bring you into a team deathmatch game on the Battle Island map with bots.</p>
+      	<p>You can also try to look for a server by clicking "Join Server". However, there probably won't be any servers up yet.</p>
+      	<p>If this is the case, you can host your own server by clicking "Host Server". Select any map or gametype you choose, or leave them to the defaults 
+      	(Battle Island, Team Deathmatch). </p>
+      	<p>You'll probably want CPU opponents, since nobody is likely to join your game at the moment. Set the number of bots to anywhere from 0 to (max number of players - 1).</p>
+      	<p>Click submit once you're done, then the server will start, and you'll get to start playing with bots!</p>
+      	<p>Note: Once in game, follow the menu instructions to select a team, weapons, and tank class. Hopefully it'll be intuitive from there :)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="block blocklike" id="started_block">
+    <div class="headerblock" style="display:inline"><b>Tips</b></div>
+    <div class="postblock">
+      <div class="postbody">
+        <h3>All classes</h3>
+      	<ul class="postbodylist">
+          <li>Any weapon with a blue power bar at the bottom-right of the HUD uses power. Press Q to lower power and E to raise power. The higher the power, the further the shot will go.</li>
+          <li>Holding SHIFT while aiming allows you to move the targeting reticle without centering the camera to its location. This is useful for aiming high while still viewing the battlefield.</li>
+          <li>Shoot mines on walls and ceilings where they're difficult to spot.</li>
+          <li>You can heal all allied units within the radius of the Repair Wave, in addition to yourself.</li>
+          <li>Press COMMA to switch classes, PERIOD to switch teams and FORWARDSLASH to switch weapons.</li>
+          <li>Some weapons work better with certain classes. For instance, the Flamethrower and Ice Spray synergize well with the Shredder's close range prowless.</li>
+          <li>Each class has a default weapon, which is the topmost weapon on the HUD. All default weapons have unlimited ammo.</li>
+          <li>If your tank gets flipped onto its side or back, press C to unflip it. You can also press C in midair to stabilize your vehicle.</li>
+          <li>You can often set enemies on fire with the Flamethrower and retreat, leaving them to die from the burning.</li>
+          <li>The Ice Spray and Ice Ball can freeze enemies, which stops all movement for five seconds.</li>
+          <li>Your best bets in destroying a Behemoth are to get behind it, or take it out from a distance with long-ranged weaponry like the Sniper Rifle.</li>
+          <li>If bots get stuck, don't be afraid to Team Kill them if friendly fire is on!</li>
+          <li>The homing missile will not home in on enemies if you fire it with a power of greater than 50%.</li>
+          <li>The Electrozapper has short range, but locks onto foes and electrifies them. Electrified enemies deal discharge damage to their nearby teammates.</li>
+          <li>You can electrify your own flag with the Electrozapper to harm foes that try to pick them up.</li>
+        </ul>
+        <h3>Assaulter</h3>
+        <ul class="postbodylist">
+          <li>The Assaulter is a great class for beginners to learn the game.</li>
+          <li>As an Assaulter, your Assault Cannon works well at any range.</li>
+          <li>The Assaulter can charge its Assault Cannon for more damage. Hold down the fire button to charge the weapon and release to shoot.</li>
+          <li>The Assaulter is a versatile, all-around tank that forms the backbone of any solid team.</li>
+        </ul>
+        <h3>Roller</h3>
+        <ul class="postbodylist">
+          <li>As a Roller, you are the fastest but weakest vehicle in the game. Use your speed advantage to harass and flank enemies when they're distracted.</li>
+          <li>As a Roller or Behemoth, the machine gun does more damage the closer you are to the enemy.</li>
+          <li>The Roller is a great tank for quickly scoring the objective.</li>
+          <li>As a Roller, you can hover in the air temporarily by holding down SPACE. Use this to cross gaps and reach areas out-of-bounds to the other classes.</li>
+        </ul>
+        <h3>Behemoth</h3>
+        <ul class="postbodylist">
+          <li>As a Behemoth, hold down MOUSE2 to fire your secondary machine guns, which have unlimited ammo.</li>
+          <li>The Behemoth can destroy most enemies in just one or two hits with the Destroyer, but is the slowest tank in the game and the only one to have restrained rotation.</li>
+          <li>As a Behemoth, the Destroyer has a long cooldown. Quickly switch to your other weapons and attack with them to best make use of this downtime.</li>
+          <li>As a Behemoth, you fire two shots of any weapon at once. This allows you to deal more damage, but also drains your ammo at twice the normal rate.</li>
+          <li>The Behemoth's thick armor makes it near-impervious to light rapid-fire weapons. Attack it with powerful, single-shot weapons instead.</li>
+          <li>As a Behemoth, avoid open areas where you are vulnerable to sniper fire.</li>
+        </ul>
+        <h3>Shredder</h3>
+        <ul class="postbodylist">
+          <li>As a Shredder, your danger drill will only damage enemies when revved. Hold down MOUSE2 to rev the drill.</li>
+          <li>As a Shredder, hold down and release SPACE to perform the drill-charge technique. Press SPACE while charging to halt the charge.</li>
+          <li>As a Shredder, the drill-charge technique can not only be used directly against enemies, but also to escape from battle and to cross horizontal gaps.</li>
+          <li>As a Shredder, charge up your drill-charge less when attacking enemies with it, and more if you want to quickly move from one location to another.</li>
+          <li>As a Shredder, ambush enemies rather than approaching them directly and getting focused down.</li>
+          <li>As a Shredder, you must rev the danger drill up before attacking with it. Hold down MOUSE1 to rev it.</li>
+          <li>As a Shredder, your Danger Drill makes a loud noise when spinning which can alert others to your presence. Only rev it up once you're right behind an unsuspecting enemy!</li>
+        </ul>
+        <h3>Groundmaster</h3>
+        <ul class="postbodylist">
+          <li>As a Groundmaster, press SPACE to jump. Use this ability when you want to cross a gap instead of climbing down into it.</li>
+          <li>As a Groundmaster, you can scale vertical cliffs and walls. Use this ability to reach sniping spots inaccessable to other tank classes.</li>
+          <li>As a Groundmaster, fire your Super Mortar at the base of your vehicle and simultaneously jump to perform a Mortar Jump, propelling yourself to great distances at the expense of some health.</li>
+          <li>As a Groundmaster, you walk at a slow speed. Use Mortar Jumps to quickly maneuver around the map, at the expense of your hit points.</li>
+          <li>As a Groundmaster, you can scope with any weapon. Press Z to toggle it on or off.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript">
+
+var game_name="tank_wars";
+
+var toggle = true;
+
+$('#started_swap').on('click',function(){
+
+  //If started block comes after controls block, move it before
+  if(!toggle)
+  {
+    toggle = true;
+    jQuery("#started_block").before(jQuery("#controls_block"));
+  }
+  else
+  {
+    toggle = false;
+    jQuery("#started_block").after(jQuery("#controls_block"));
+  }
+});
+
+$('#controls_swap').on('click',function(){
+
+  //If controls block comes before started block, move it after
+  if(!toggle)
+  {
+    toggle = true;
+    jQuery("#controls_block").after(jQuery("#started_block"));
+  }
+  else
+  {
+    toggle = false;
+    jQuery("#controls_block").before(jQuery("#started_block"));
+  }
+});
+
+</script>
+
+  <div id="footer" class="blocklike">
+    <div id="footer_text_div">
+      <a style="color:white" href="https://www.youtube.com/channel/UCETpT-tLYC0dLmMbMNGjlLw/videos">Youtube</a>&nbsp;
+      <a style="color:white" href="mailto:usernameqq15@gmail.com">Email</a>
+    </div>
+  </div>
+
+</body>
+
+
+</html>
